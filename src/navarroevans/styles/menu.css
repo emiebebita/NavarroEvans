@@ -1,0 +1,16 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    -fx-background-color: radial-gradient(radius 180%, #4444ff, derive(#4444f0, -30%), derive(#111177, 30%));
+}
+
+.button {
+    -fx-background-color: white;
+    -fx-border-width: 1;
+    -fx-border-color: skyblue;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+    -fx-text-fill: #222222;
+}

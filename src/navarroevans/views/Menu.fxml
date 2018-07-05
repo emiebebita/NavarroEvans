@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="1024.0" styleClass="mainFxmlClass" stylesheets="@../styles/menu.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="navarroevans.controllers.MenuController">
+   <children>
+      <Button fx:id="lagrange" layoutX="158.0" layoutY="199.0" mnemonicParsing="false" text="Método de Lagrange">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="newton" layoutX="158.0" layoutY="245.0" mnemonicParsing="false" text="Método de Newton">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="cuadrado" layoutX="158.0" layoutY="362.0" mnemonicParsing="false" text="Método de mínimo cuadrado">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="trapezoidal" layoutX="691.0" layoutY="205.0" mnemonicParsing="false" text="Regla trapezoidal">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="simpson" layoutX="689.0" layoutY="252.0" mnemonicParsing="false" text="Regla de Simpson">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label layoutX="48.0" layoutY="55.0" text="Proyecto de Métodos Numéricos" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="158.0" layoutY="153.0" text="Interpolación numérica" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="158.0" layoutY="314.0" text="Método de regresión" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="689.0" layoutY="155.0" text="Integración numérica" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="723.0" layoutY="465.0" text="Creado por Emilie Evans y Gabriela Navarro" textFill="WHITE" />
+   </children>
+</AnchorPane>
