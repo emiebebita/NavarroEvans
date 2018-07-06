@@ -30,7 +30,7 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Label layoutX="48.0" layoutY="55.0" text="Proyecto de Métodos Numéricos" textFill="WHITE">
+      <Label layoutX="213.0" layoutY="58.0" text="Proyecto de Métodos Numéricos" textFill="WHITE">
          <font>
             <Font size="36.0" />
          </font>

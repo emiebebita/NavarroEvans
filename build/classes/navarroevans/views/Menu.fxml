@@ -10,23 +10,23 @@
 
 <AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="1024.0" styleClass="mainFxmlClass" stylesheets="@../styles/menu.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="navarroevans.controllers.MenuController">
    <children>
-      <Button layoutX="158.0" layoutY="199.0" mnemonicParsing="false" text="Método de Lagrange">
+      <Button fx:id="lagrange" layoutX="158.0" layoutY="199.0" mnemonicParsing="false" text="Método de Lagrange">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Button layoutX="158.0" layoutY="245.0" mnemonicParsing="false" text="Método de Newton">
+      <Button fx:id="newton" layoutX="158.0" layoutY="245.0" mnemonicParsing="false" text="Método de Newton">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Button layoutX="158.0" layoutY="362.0" mnemonicParsing="false" text="Método de mínimo cuadrado">
+      <Button fx:id="cuadrado" layoutX="158.0" layoutY="362.0" mnemonicParsing="false" text="Método de mínimo cuadrado">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Button layoutX="691.0" layoutY="205.0" mnemonicParsing="false" text="Regla trapezoidal">
+      <Button fx:id="trapezoidal" layoutX="691.0" layoutY="205.0" mnemonicParsing="false" text="Regla trapezoidal">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Button layoutX="689.0" layoutY="252.0" mnemonicParsing="false" text="Regla de Simpson">
+      <Button fx:id="simpson" layoutX="689.0" layoutY="252.0" mnemonicParsing="false" text="Regla de Simpson">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
